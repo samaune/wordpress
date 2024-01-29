@@ -1,0 +1,13 @@
+{
+    "require": {
+        "kreait/firebase-php": "^6.1",
+		"deminy/streamer": "^0.0.1",
+        "psr/log": "^3.0",
+        "aws/aws-sdk-php": "^3.262"
+    },
+	"autoload" : {
+        "psr-4" : {
+            "Xmpp\\" : "lib/Xmpp/"
+        }
+    }
+}
